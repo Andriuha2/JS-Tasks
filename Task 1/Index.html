@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <title>Weight Converter</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Custom JS -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Header code-->
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <h1 class="headline">Weight Converter</h1>
+        <!-- Users input -->
+
+        <form>
+          <div class="form-group">
+          <input
+            type="number"
+            class="form-control form-control-lg"
+            name="wight"
+            id="lbsInput"
+            placeholder="Enter kilograms..."
+          />
+          <!-- <input type="submit" id="submit-btn" value="Calculate" /> -->
+        </div>
+        </form>
+        <!-- Place for output after form submission -->
+        <div id="output">
+          <div class="card card-primary mb-2">
+            <div class="card-block">
+              <h4>Grams:</h4>
+              <div id="gramsOutput"></div>
+            </div>
+          </div>
+
+          <div class="card card-success mb-2">
+            <div class="card-block">
+              <h4>Kilograms:</h4>
+              <div id="kgOutput"></div>
+            </div>
+          </div>
+
+          <div class="card card-danger mb-2">
+            <div class="card-block">
+              <h4>Ounces:</h4>
+              <div id="ozOutput"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div id="output"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <!-- Footer code -->
+    </footer>
+  </body>
+</html>
