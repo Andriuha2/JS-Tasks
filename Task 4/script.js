@@ -17,10 +17,8 @@ fetch("cars.json")
     return response.json();
   })
   .then((data) => {
-    //so console log outputs data
     console.log(data);
     let output = data;
-    //I do smth bad here
     output.map(function (output) {
       let li = document.createElement("li");
       let brand = document.createElement("h4");
